@@ -6,8 +6,8 @@ from datetime import date
 from telegram import *
 from telegram.ext import *
 
-TOKEN = "PUT_BOT_TOKEN"
-ADMIN_ID = 123456789
+TOKEN = "8241969129:AAE2amllaL22t0Xb2PwS1GFg2AXtTd9GS3E"
+ADMIN_ID = 6050668835
 
 logging.basicConfig(level=logging.INFO)
 db = sqlite3.connect("bot.db", check_same_thread=False)
